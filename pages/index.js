@@ -1,8 +1,10 @@
+import { Home } from "../components/Home";
 
-export default function Home() {
-  return (
-    <>
-      <h1 className='text-center mt-4'>Home</h1>    
-    </>
-  )
+function Index(){
+
+    return (
+        <Home />
+    );
 }
+
+export default Index;
